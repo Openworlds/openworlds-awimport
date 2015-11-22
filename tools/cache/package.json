@@ -1,0 +1,26 @@
+{
+  "name": "cache2propdump",
+  "version": "1.0.0",
+  "description": "Convert AW5 Browser cache file to propdump",
+  "main": "cache2propdump.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Openworlds/openworlds-awimport.git"
+  },
+  "keywords": [
+    "ActiveWorlds",
+    "OpenWorlds",
+    "propdump",
+    "browser",
+    "3dee"
+  ],
+  "author": "Ithamar R. Adema <ithamar@upgrade-android.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Openworlds/openworlds-awimport/issues"
+  },
+  "homepage": "https://github.com/Openworlds/openworlds-awimport#readme"
+}
