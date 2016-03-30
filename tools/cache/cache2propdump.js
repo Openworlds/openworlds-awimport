@@ -83,8 +83,9 @@ fs.readFile(process.argv[2], function(err,idx) {
 						owner = dat.readUIntLE(data_pos + 12, 4),
 						timestamp = dat.readUIntLE(data_pos + 16, 4),
 						// XXX 20: uint16?
-						x = dat.readIntLE(data_pos + 22, 2),
-						y = dat.readIntLE(data_pos + 24, 2),
+						x = dat.readIntLE(data_pos + 20, 2),
+						y = dat.readIntLE(data_pos + 22, 2),
+						_ = dat.readIntLE(data_pos + 24, 2), // 0 / -1
 						z = dat.readIntLE(data_pos + 26, 2),
 						yaw = dat.readIntLE(data_pos + 28, 2),
 						tilt = dat.readIntLE(data_pos + 30, 2),
